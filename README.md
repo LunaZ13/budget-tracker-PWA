@@ -4,38 +4,30 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description: 
-An API for a social network application where users can share their thoughts, react to friends' thoughts, and create a friends list. Using Express.js for routing, NoSQL database (MongoDB), and the Mongoose ODM for structure. Used CRUD operation to test REST API routes for the application in Postman (API testing application). 
+A budget tracker (PWA) application that allows offline access and functionality. This app gives users a fast and easy way to track their money at any time, no matter where. Having offline functionality is paramount to the success of an application that handles users’ financial information.
 
 ## Installation: 
-Make sure you have MongoDB installed on your computer https://docs.mongodb.com/manual/installation/
- 
-CLI commands
-1. Clone repository: `git clone` git@github.com:LunaZ13/Social-Network-API.git
-2. Type `npm install` to get all required dependencies
-3. Type `mongod` to start the MongoDB server on your local machine
-4. Open Postman or your choice of API testing application
-5. Run `node server.js` to connect to server.
+Make sure you have the required dependencies
+`npm install`
+`npm i express`
+`npm i mongoose`
+ Then start the server by typing `npm start` and navigate towards http://localhost:3002/ in your browser.
 
 ## Usage:
-User is able to test API POST, GET, PUT, and DELETE routes and to add, update, and delete data for a social network API that can be used for a website. Watch the demo video below.
+The user is able to input an expense or deposit when traveling. User is able to track withdrawals and deposits with or without an internet connection. If the user enters transactions offline, the total will be updated when they're brought back online.
 
-Get / POST / DELETE for Thoughts, Users, Friends, and Reactions.
-[video1161744635.mp4.zip](https://github.com/LunaZ13/Social-Network-API/files/7867959/video1161744635.mp4.zip)
-
-PUT for updating users and thoughts.
-
-https://user-images.githubusercontent.com/86627336/149455525-aba5dbcb-ca05-4627-b0a9-f85dc1027bf4.mp4
+![Alt Text](images/screenshot.png)
 
 ## Contributing:
 Feel free to fork project and reach out.
 
 ## Built With:
-* JavaScript
-* Node.js
+* HTML
+* CSS
 * Express.js
-* NoSQL
 * MongoDB
 * Mongoose
+* IndexedDB
 
 
 ## Credits:
