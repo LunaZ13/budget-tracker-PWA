@@ -11,7 +11,7 @@ Make sure you have the required dependencies
 `npm install`
 `npm i express`
 `npm i mongoose`
- Then start the server by typing `npm start` and navigate towards http://localhost:3002/ in your browser.
+ Then start the server by typing `npm start` and navigate towards http://localhost:3002/ in your browser or check out at https://calm-eyrie-08704.herokuapp.com/
 
 ## Usage:
 The user is able to input an expense or deposit when traveling. User is able to track withdrawals and deposits with or without an internet connection. If the user enters transactions offline, the total will be updated when they're brought back online.
